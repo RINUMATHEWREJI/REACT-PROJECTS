@@ -3,8 +3,12 @@ function Home(){
 
     return(
         <>
-             <Quiz />
-            
+        <div className="main-container">
+            <h1 className="container-title">Quiz App</h1>
+            <div className="quiz-container">
+                <Quiz />
+            </div>
+        </div>
         </>
     )
 }
